@@ -10,7 +10,7 @@ body{
 }
 h1{
     color:#75E6A0;
-    font-size: 11vw;
+    font-size: 80px;
     display:flex;
     justify-content: center;
     padding-bottom: 25px;
@@ -66,9 +66,10 @@ button{
 }
 @media only screen and (max-width:500px) {
     body > .container{
-        width: 100px;
+        width: 50vw;
         padding: 100px 160px 400px 160px;
         height: 130vw;
+        margin: 0px auto;
     }
     
     h1{
