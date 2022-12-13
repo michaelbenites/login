@@ -10,7 +10,7 @@ body{
 }
 h1{
     color:#75E6A0;
-    font-size: 4rem;
+    font-size: 11vw;
     display:flex;
     justify-content: center;
     padding-bottom: 25px;
@@ -65,18 +65,13 @@ button{
 
 }
 @media only screen and (max-width:500px) {
-body > .container{
-    width: 200px;
-}
-}
-
-@media only screen and ( max-width:500px){
-p{
-    position: absolute;
-    text-align: center;
-    padding: 5px;
-    left: 0px;
-    color: #43a066;
-
+    body > .container{
+        width: 100px;
+        padding: 100px 160px 400px 160px;
+        height: 130vw;
+    }
+    
+    h1{
+        font-size: 14vw ;
     }
 }
