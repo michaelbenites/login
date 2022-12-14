@@ -8,7 +8,7 @@ body{
     height: 100vh;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1446' height='560' preserveAspectRatio='none' viewBox='0 0 1446 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1043%26quot%3b)' fill='none'%3e%3crect width='1446' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1044)'%3e%3c/rect%3e%3ccircle r='34.94' cx='625.19' cy='485.12' fill='url(%23SvgjsLinearGradient1045)'%3e%3c/circle%3e%3ccircle r='46.92' cx='916.21' cy='469.99' fill='url(%23SvgjsLinearGradient1046)'%3e%3c/circle%3e%3ccircle r='18.875' cx='672.59' cy='173.42' fill='%23834fa5'%3e%3c/circle%3e%3ccircle r='38.78' cx='812.9' cy='412.81' fill='%23834fa5'%3e%3c/circle%3e%3ccircle r='21.685' cx='202.24' cy='51.54' fill='url(%23SvgjsLinearGradient1047)'%3e%3c/circle%3e%3ccircle r='53.525' cx='160.89' cy='396.89' fill='url(%23SvgjsLinearGradient1048)'%3e%3c/circle%3e%3ccircle r='32.42' cx='128.76' cy='471.25' fill='url(%23SvgjsLinearGradient1049)'%3e%3c/circle%3e%3ccircle r='40.24' cx='1181.08' cy='507.43' fill='url(%23SvgjsLinearGradient1050)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1043'%3e%3crect width='1446' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='15.32%25' y1='-39.55%25' x2='84.68%25' y2='139.55%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1044'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(18%2c 7%2c 103%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='555.3100000000001' y1='485.12' x2='695.07' y2='485.12' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1045'%3e%3cstop stop-color='%2384b6e0' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(45%2c 49%2c 119%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='822.37' y1='469.99' x2='1010.05' y2='469.99' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1046'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='158.87' y1='51.54' x2='245.61' y2='51.54' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1047'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(106%2c 73%2c 116%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='53.83999999999999' y1='396.89' x2='267.94' y2='396.89' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1048'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(106%2c 73%2c 116%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='63.91999999999999' y1='471.25' x2='193.6' y2='471.25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1049'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1100.6' y1='507.43' x2='1261.56' y2='507.43' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1050'%3e%3cstop stop-color='%2384b6e0' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(45%2c 49%2c 119%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
 }
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -25,7 +25,7 @@ body > .container{
     width: 500px;
     height: 500px;
     top: 160px;
-    margin: auto;
+    margin:auto;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.774);
     padding:100px;
    
@@ -73,11 +73,26 @@ button:hover{
     body > .container{
         width: 70vw;
         padding:30px;
-        height: 107vw;
-        margin: 0px auto;
+        height: 50vh;
+        margin: auto;
     }
     
     h1{
         font-size: 14vw ;
+    }
+}@media only screen and (max-height:665px) {
+    body > .container{
+        position: relative;
+        top:0;
+        width: 400px;
+        height: 360px;
+    }
+    h1 , label, input{
+        height: 34px;
+    }
+    h1{
+        position: relative;
+        top:-20px;
+        font-size: 10vh;
     }
 }
