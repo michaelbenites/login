@@ -8,15 +8,21 @@
     <title>Michael</title>
 </head>
     <body>
-        <div class="container">
-            <h1><strong>Login</strong></h1>
-                <div class="field">
-                    <label>Email</label>
-                    <input type="email" name="name" placeholder="seu e-mail"></div>
-                <div class="field">
-                    <label>Senha</label><input type="password" name="senha" placeholder="insira sua senha">
-                </div>
-                <button class="">Login</button>
-        </div>
+        <main>
+            <section>
+                <form action="cadastro.php">
+                    <div class="container">
+                        <h1><strong>Login</strong></h1>
+                            <div class="field">
+                                <label for="email">Email</label>
+                                <input type="email" name="name" placeholder="seu e-mail" id="email"></div>
+                            <div class="field">
+                                <label for="senha">Senha</label><input type="password" name="senha" placeholder="insira sua senha" id="senha">
+                            </div>
+                            <button class="">Login</button>
+                    </div>
+                </form>
+            </section>
+        </main>
     </body>
 </html>
