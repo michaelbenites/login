@@ -70,7 +70,7 @@ button:hover{
     cursor: pointer;
 }
 @media only screen and (max-width:500px) {
-    body > .container{
+     .container{
         width: 70vw;
         padding:30px;
         height: 50vh;
@@ -80,8 +80,10 @@ button:hover{
     h1{
         font-size: 14vw ;
     }
-}@media only screen and (max-height:665px) {
-    body > .container{
+}
+
+@media only screen and (max-height:665px) {
+    .container{
         position: relative;
         top:0;
         width: 400px;
@@ -93,6 +95,6 @@ button:hover{
     h1{
         position: relative;
         top:-20px;
-        font-size: 10vh;
+        font-size: 8vh;
     }
 }
